@@ -1,35 +1,68 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "QuickReel Help Center",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8960cb",
+    "light": "#9669df",
+    "dark": "#8960cb"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Help Center",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "help-center/getting-started/introduction",
+              "help-center/getting-started/first-setup",
+              "help-center/getting-started/email-login"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Our AI Tools",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "help-center/ai-tools/ai-clip",
+              "help-center/ai-tools/ai-edit",
+              "help-center/ai-tools/ai-text-to-video",
+              "help-center/ai-tools/ai-text-to-image",
+              "help-center/ai-tools/ai-text-to-speech",
+              "help-center/ai-tools/audio-to-video",
+              "help-center/ai-tools/ai-brolls",
+              "help-center/ai-tools/ai-subtitles",
+              "help-center/ai-tools/remove-silences",
+              "help-center/ai-tools/remove-filler-words",
+              "help-center/ai-tools/remove-bad-cuts",
+              "help-center/ai-tools/ai-bgm"
+            ]
+          },
+          {
+            "group": "Publish Your Projects",
+            "pages": [
+              "help-center/publish/add-social-accounts",
+              "help-center/publish/publish-to-social-media"
+            ]
+          },
+          {
+            "group": "Billing & Payments",
+            "pages": [
+              "help-center/billing-and-payments/credits-work",
+              "help-center/billing-and-payments/plans",
+              "help-center/billing-and-payments/upgrade-and-downgrade",
+              "help-center/billing-and-payments/payment-and-billing-info"
+            ]
+          },
+          {
+            "group": "API",
+            "pages": ["help-center/api/api-requests"]
+          },
+          {
+            "group": "Other Questions",
+            "pages": [
+              "help-center/other-questions/become-affiliate",
+              "help-center/other-questions/request-feature"
             ]
           }
         ]
@@ -39,9 +72,7 @@
         "groups": [
           {
             "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Endpoint Examples",
@@ -58,26 +89,16 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Discord",
+          "href": "https://discord.com/invite/HXQ92SDamV",
+          "icon": "discord"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/quickreel-logo.png",
+    "dark": "/logo/quickreel-logo.png"
   },
   "navbar": {
     "links": [
